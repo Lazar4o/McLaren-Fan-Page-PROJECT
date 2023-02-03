@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'poppins', sans-serif; */
+}
+
+body#forthpage{
+    background-image: url('Background720sSecond.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+    background-position-y: -320px;
+}
+body#secondpage{
+    background-image: url('mclarenP1secondBackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+}
+body#homepage{
+    background-image: url('backGroundPicture.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;  
+    /* margin: 0; */
+}
+body#thirdpage{
+    background-image: url('Background570s.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;  
+    background-position-x: 0px;
+    /* margin: 0; */
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+nav ul {
+    text-align: center;
+    /* margin: 10px; */
+    /* padding: 30px; */
+    /* width: 75cm; */
+  }
+nav ul li{
+    /* list-style: none; */
+    display: inline-block;
+    margin: 20px 40px 20px 20px;
+    width: 4cm;
+    font-weight: 600;
+}
+nav ul li a{
+    display: inline-block;
+    width: max-content;
+    padding: 10px 0 20px;
+    /* margin: 0px 0px 0px 0px; */
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.5s;
+    /* border: 4px solid blue; */
+    border-radius: 25px;
+}
+nav ul li a:hover{
+    /*text-emphasis-color: red;*/
+    /* background-color: aliceblue; */
+    font-size: 30px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    border: 4px solid aliceblue;
+    border-radius: 25px;
+    transition: 0.5s;
+    
+}
+body#forthpage nav ul li a{
+    display: inline-block;
+    width: max-content;
+    padding: 10px 0 20px;
+    /* margin: 0px 0px 0px 0px; */
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    /* border: 4px solid blue; */
+    border-radius: 25px;
+}
+body#forthpage nav ul li a:hover{
+    /*text-emphasis-color: red;*/
+    /* background-color: aliceblue; */
+    font-size: 30px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: transparent;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    transition: 0.5s;
+    
+}
+.logo{
+    width: 550px;
+    /* height: 150px; */
+}
+section{
+    text-align: center;
+}
+section h1{
+    margin: 7cm 100px 10px 100px;
+    padding: 0px 100px 0px 100px;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    color: transparent;
+    font-size: 82px;
+    font-weight: 600;
+    transition: 0.5s;
+    /* font-size: 80px; */
+    /* color: #fff; */
+}
+/* section h1:hover{
+    -webkit-text-stroke: 3px #fff;
+    color: transparent;
+    font-size: 82px;
+} */
+section a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 24px 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.secondpagelogo{
+    width: 550px;
+    height: 140px;
+}
+.firstcar{
+    display: flex;
+    justify-content: center;
+    /* font-size: 25px; */
+    align-items: center;
+    margin: 120px 0px 30px 0px;
+}
+footer {
+    background-color:#212121;
+    bottom: 0;
+    box-shadow: 0 -1px 2px #8a8a8a;
+    display: inline-block;
+    height: 140px;
+    left: auto;
+    position:fixed;
+    width:100%;
+    z-index:1;
+}
+.container {
+    color: #fff;
+    margin:20px auto;
+    padding: 30px 10px 30px 10px;
+    position: relative;
+    width: 1100px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    box-shadow: 1px 1px 5px #ffffff;
+    column-count: 4;
+    column-gap: 4em;
+    column-rule: 1px solid #ef0000;
+    -moz-column-count: 4;
+    -moz-column-gap: 4em;
+    -moz-column-rule: 1px solid black;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 5em;
+    -webkit-column-rule: 2px solid white;
+}
+body#historypage{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+body#historypage nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    
+}
+.banner1, .banner2, .banner3{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.banner1 img, .banner2 img, .banner3 img{
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: zoom-out 3s linear infinite;
+}
+@keyframes zoom-out{
+    100%{
+        width: 100%;
+    }
+}
+.banner1{
+    animation: slide1 12s linear infinite;
+}
+.banner2{
+    animation: slide2 12s linear infinite;
+}
+.banner3{
+    animation: slide3 12s linear infinite;
+}
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes slide2{
+        0%{
+            visibility: hidden;
+        }
+        25%{
+            visibility: hidden;
+        }
+        50%{
+            visibility: visible;
+        }
+        75%{
+            visibility: hidden;
+        }
+        100%{
+            visibility: hidden;
+        }
+}
+@keyframes slide3{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+.text-box{
+    width: 600px;
+    position: absolute;
+    top: 360px;
+    left: 170px;
+    color: #fff;
+}
+.text-box h1{
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.text-box p{
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 80px;
+}
+.text-box span{
+    background-color: red;
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+}
